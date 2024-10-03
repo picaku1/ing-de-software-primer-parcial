@@ -1,10 +1,1 @@
-body{
-    background: khaki;
-}
-
-#descripcion{
-    color: blue;
-
-}
-
-.titulos {color:brown;}
+@import url("josuelopez.css");
