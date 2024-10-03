@@ -1,11 +1,1 @@
-body  {
-    background: gray;
-}
-
-#descripcion {
-    color: antiquewhite;
-}
-
-.titulos    {
-    color: brown;
-}
+@import url('maori.css');
