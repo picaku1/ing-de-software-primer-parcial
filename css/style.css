@@ -1,11 +1,3 @@
-body {
-  background: gray;
-}
-
-#descripcion {
-  color: white;
-}
-
-.titulos {
-  color: blue;
-}
+@import url("raymundosantoyo.css");
+@import url("alexcanul.css");   
+@import url('abraham.css');
