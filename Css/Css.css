@@ -1,11 +1,1 @@
-body{
-    background: #3a8f66;
-}
-
-#Descrición{
-    color: aqua;
-}
-
-.titulos{
-    color: azure;
-}
+@import url("diegosanchez.css");
