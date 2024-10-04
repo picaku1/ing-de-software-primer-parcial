@@ -1,9 +1,1 @@
-body{
-    background: azure ;
-}
-#descripcion{
-    color: gold;
-}
- .titulos{
-    color:blue;
- }
+@import url('erickdayan.css');
