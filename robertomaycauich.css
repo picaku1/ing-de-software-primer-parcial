@@ -1,0 +1,14 @@
+body{
+    background: purple;
+}
+#descripción {
+    color:blue
+}
+.titulos {
+    color:rgb(7, 201, 159)
+}
+.perfil{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
