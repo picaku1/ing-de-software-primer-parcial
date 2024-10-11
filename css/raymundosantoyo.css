@@ -1,3 +1,29 @@
-body {
-    background: gray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background: yellow;
+}
+
+.header {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header img {
+    height: 100px;
+  }
+
+  .contenedorDescripcion {
+    background: lightgray;
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+  }
