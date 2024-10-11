@@ -8,22 +8,26 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <div class="header">
         <h1 class="titulos"> curriculum vitae</h1>
 
-    <p id="descripcion">soy mark giovany juan ramirez y mu sueño es tener suficiente dinero para poder mantener a mi familia</p>
-    <img src="mark-gio.jpg" alt="300">
-        <h3>mis contactos  </h3>
+   
+    <img src="mark-giovany.jpg" alt="300">
+</div>
+<div class="contenedorDescripcion">
+<p id="descripcion">soy mark giovany juan ramirez y mu sueño es tener suficiente dinero para poder mantener a mi familia</p>
+</div>
+    <h3>mis contactos  </h3>
         <ul>
     <li><strong>telefono:</strong><a href="9983907620">9983907620</a></li>
     <li><strong>gmail:</strong><a href="markgiovany11@gmail.com">markgiovany11@gmail.com</a></li>
-  
-</ul>
+    </ul>
    <li> <h1 class="titulos">experiencia de primaria</h1></li>
 </ul>
 <p>en la primaria cuando intentaba llegar a la escuela luchaba contra osos y tenia que escalar para poder llegar a mi primaria,
     pero todo valio la <br>pena porque termine de saber las <strong>tablas de multiplicar y la historia de mexico</strong>
     y gracias a eso pude entrar a secundaria... no esperaba lo que me iba a pasar</p>
-    
+
     <ul>
         <li> compresión lectora media aprender a escribir y leer</li>
         <li> habilidades matemátematicas</li>
@@ -67,7 +71,30 @@ mamuts y tigres dientes de sables a mordidas y a puños limpios, <br> mataba a l
         y poder salbar el mundo
         </p>
 
-
+        <div class="contacto">
+            <form>
+                <label for="nombre">escribe tu nombre</label>
+                <input type="text" name="pozole">
+                <label for="ciudad">¿de que ciudad nos visitas</label>
+                <select name="ciudad" id="">
+                    <option value="">cancun</option>
+                    <option value="">merida</option>
+                    <option value="">playa de carmen</option>
+                    <option value="">campeche</option>
+                </select>
+                <label for="ciudad">en que esta interesado?</label>
+                <input type="checkbox"> <span>clases</span>
+                <input type="checkbox"> <span>reprobar</span>
+                <input type="checkbox"> <span>pagina web</span>
+                <input type="checkbox"> <span>chismear</span>
+                <label for="programar">sabes programar?</label>
+                <input type="radio" name="programar"> <span>si</span>
+                <input type="radio"name="programar"> <span>no</span>
+                <label for="mensaje">escribe tu mensaje</label>
+                <textarea name="mensaje"></textarea>
+                
+            </form>
+        </div>
         
 </body>
 </html> 
