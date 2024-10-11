@@ -1,13 +1,64 @@
-body{
-    background: rebeccapurple;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-. header {
+body {
     background: red;
-    padding: 20px;
-    margin: 100px;
-    width: 50%;
 }
-. header img{
+
+.header {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
     height: 100px;
+}
+
+.contenedordescripcion {
+    background: rgb(228, 8, 173);
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.informaciondecontacto {
+    background: rgb(103, 111, 230);
+    padding: 35px;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.experienciaescolar {
+    background: rgb(38, 201, 223);
+    padding: 35px;
+    margin: 65px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.experiencialaboral {
+    background: rgba(230, 209, 24, 0.651);
+    padding: 35px;
+    margin: 80px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.contactoo {
+    background: rgb(226, 155, 152);
+    padding: 40px 30px 100px 20px;
+    margin: 90px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+textarea {
+    position: absolute;
 }
