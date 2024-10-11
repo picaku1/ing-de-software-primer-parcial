@@ -1,3 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: aqua;
 }
+
+.lmheader{
+    background-color: lightcoral;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ .lmheader img{
+    height: 50px;
+
+ }
+ .lmcontenedorDescripciones{
+    background-color:lightcyan;
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+ }
