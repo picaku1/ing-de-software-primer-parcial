@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+body{
+    background-color: aquamarine;
+}
+
+#descripcion{
+    color: rgb(245, 0, 0);
+}
+
+.titulos{
+    color: blueviolet;
+
+}
+=======
+@import url('luisgarcia.css');
+@import url(markjuan.css);
+>>>>>>> upstream/main
