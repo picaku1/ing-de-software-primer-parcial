@@ -1,3 +1,29 @@
-body{
-    background: red;
+*{
+    marging: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: aqua;
+}
+
+
+ .header    {
+    background-color: blue;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 100px;
+}
+
+.contenedorDescripcion {
+    background-color: lightgrey;
+    padding: 20px;
+    marging: 35px auto;
+    width: 50%;
+    border-radius: 7px;
 }
