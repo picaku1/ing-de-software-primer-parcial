@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .header{
-    background: red;
-    padding: 20px  ;
+    background: rgb(0, 0, 0);
+    padding: 2%  ;
     width:100% ;
     display: flex;
     justify-content: space-between;
@@ -14,14 +14,35 @@
     height: 80px;
 }
 .header h1{
-    background: gray;
+    background: rgb(255, 255, 255);
     
 }
 
 .contenedorDescripcion{
-    background: lightgray;
+    background: rgb(31, 232, 182);
     padding: 20px;
     margin: 35px auto;
     width: 50%;
     border-radius: 50px;
+}
+
+.experienciaPrimaria{
+    background-color: aqua;
+   margin: 2% ;
+   padding: 2%;
+  width: 97%;
+    border-radius: 50px;
+}
+
+.experienciaSecundaria{
+    background-color: aqua;
+   margin: 2% right;
+   padding: 2%;
+  width: 300px;
+    border-radius: 50px;
+}
+ 
+
+body{
+    background-color: beige;
 }
