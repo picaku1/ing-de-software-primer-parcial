@@ -35,13 +35,29 @@
 }
 
 .experienciaSecundaria{
-    background-color: aqua;
-   margin: 2% right;
-   padding: 2%;
-  width: 300px;
-    border-radius: 50px;
+    background-color: rgb(72, 244, 72);
+    margin: 2% ;
+    padding: 2%;
+   width: 97%;
+     border-radius: 50px;
+}
+
+.experienciaPreparatoria{
+    background-color: rgb(238, 255, 0);
+    margin: 2% ;
+    padding: 2%;
+   width: 97%;
+     border-radius: 50px;
 }
  
+.ExperienciaLaboral{
+    background-color: rgb(255, 0, 255);
+    margin: 2% ;
+    padding: 2%;
+   width: 97%;
+     border-radius: 50px;
+}
+
 
 body{
     background-color: beige;
