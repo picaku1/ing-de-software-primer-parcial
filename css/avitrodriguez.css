@@ -20,6 +20,7 @@ body {
     height: 100px;
 }
 
+
 .contenedordescripcion {
     background: rgb(228, 8, 173);
     padding: 20px;
@@ -49,16 +50,5 @@ body {
     padding: 35px;
     margin: 80px auto;
     width: 50%;
-    border-radius: 10px;
-}
-
-.contactoo {
-    background: rgb(226, 155, 152);
-    padding: 40px 30px 100px 20px;
-    margin: 90px auto;
-    width: 50%;
-    border-radius: 10px;
-}
-textarea {
-    position: absolute;
+    border-radius: 15px;
 }
