@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{ background: lightcoral;}
+body{ background: black;}
 
 .header{background: lightcyan;
 font-size: 50px;
@@ -61,5 +61,14 @@ justify-content: space-between;}
     position: relative
     ;
     left: 850px;
+}
+
+.Contacto{
+    background: lightcyan;
+    font-size: 25px;
+    padding: 60px;
+    margin: 25px;
+    width: 58%;
+    border-radius: 100px;
 }
 
