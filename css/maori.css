@@ -17,7 +17,7 @@ body {
 }
 
 .header img {
-    height: 100px;
+    height: 50px;
 }
 
 .contenedorDescripcion {
@@ -25,5 +25,28 @@ body {
     padding: 20px;
     margin: 35px auto;
     width: 50%;
+    border-radius: 7px;
+}
+
+.contenedorContacto {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 25px;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.contenedorEtiqueta {
+    justify-content: center;
+    display: flex;
+}
+
+.contenedorInformacion {
+    justify-content: center;
+    display: flex;
+    background: lightpink;
+    padding: 20px;
+    margin: 35px auto;
+    width: 80%;
     border-radius: 7px;
 }
