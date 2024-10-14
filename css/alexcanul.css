@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body {
-    background: aqua;
+    background: rgb(165, 54, 54);
 }
 
 
  .header    {
-    background-color: blue;
+    background-color: rgb(216, 125, 72);
     padding: 20px;
     width: 100%;
     display: flex;
@@ -21,9 +21,31 @@ body {
 }
 
 .contenedorDescripcion {
-    background-color: lightgrey;
-    padding: 20px;
-    marging: 35px auto;
-    width: 50%;
+    background: rgba(165, 54, 54, 0.58);
+    padding: 50px;
+    margin: 35px auto;
+    width: 70%;
     border-radius: 7px;
 }
+
+.contenedorContacto {
+    background: rgb(216, 125, 72);
+    padding: 50px;
+    margin: 35px auto;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.contenedorInformacion {
+    justify-content: center;
+    display: flex;
+}
+
+.contenedormargen {
+    background: rgb(216, 125, 72);
+    padding: 50px;
+    margin: 35px auto;
+    width: 80%;
+    border-radius: 7px;
+}
+
