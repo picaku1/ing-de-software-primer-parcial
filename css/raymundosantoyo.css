@@ -5,7 +5,7 @@
 }
 
 body {
-    background: yellow;
+    background: rgb(17, 17, 42);
 }
 
 .header {
@@ -22,8 +22,70 @@ body {
 
   .contenedorDescripcion {
     background: lightgray;
-    padding: 20px;
-    margin: 35px auto;
-    width: 50%;
+    padding: 15px;
+    margin: 25px auto;
+    width: 60%;
     border-radius: 7px;
   }
+
+  .contenedorDescripcion h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background: rgba(12, 23, 59, 0.712);
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 7px;
+    
+  }
+
+  .contenedorDescripcion h3 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: rgba(12, 23, 59, 0.712); 
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 7px;
+  }
+  
+  #descripcion {
+    color: black;
+  }
+
+  .contenedor {
+    justify-content: center;
+    display: flex;
+  }
+
+  .contenedorInformacion strong {
+    color: rgba(112, 18, 18, 0.726);
+  }
+
+  .titulos {
+    font-size: 25px;
+  }
+
+.contenedorColor label {
+  color: rgba(112, 18, 18, 0.726);
+}
+
+.contenedorColor h2 {
+  color: white;
+}
+
+.contenedorColor span {
+  color: black;
+}
+
+.contenedorText {
+  justify-content: center;
+  display: flex;
+  
+}
+
+.contenedorText {
+  justify-content: center;
+}
