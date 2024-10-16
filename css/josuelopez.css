@@ -1,1 +1,74 @@
-body{ background: lightblue;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ background: black;}
+
+.header{background: lightcyan;
+font-size: 50px;
+padding: 20px ;
+width: 100% ;
+display: flex;
+justify-content: space-between;}
+
+
+.header img {
+    height:  100px;
+}
+
+.contenedorDescripcion {
+    background: lightcyan;
+    font-size: 21px;
+    padding: 45px ;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 100px;
+    position: relative;
+    right: 280px;
+}
+
+.InformacionContacto{
+  background: lightcyan;
+  font-size: 20px;
+  padding: 40px;
+  margin: 5px;
+  width: 32%;
+  border-radius: 100px;
+  position: relative;
+  top: 5;
+  left: 950px;
+}
+
+.ExperienciaEscolar{
+    background: lightcyan;
+    font-size: 21px;
+    padding: 50px;
+    margin: 10px;
+    width: 40%;
+    border-radius:  100px;
+    position: relative;
+    left: 110px;
+}
+
+.ExperienciaLaboral{
+    background: lightcyan;
+    font-size: 21px;
+    padding: 45px;
+    margin: 5px;
+    width: 40%;
+    border-radius: 100px;
+    position: relative
+    ;
+    left: 850px;
+}
+
+.Contacto{
+    background: lightcyan;
+    font-size: 25px;
+    padding: 60px;
+    margin: 25px;
+    width: 58%;
+    border-radius: 100px;
+}
+
