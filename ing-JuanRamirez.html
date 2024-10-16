@@ -8,22 +8,28 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+ <div class="header">
         <h1 class="titulos"> curriculum vitae</h1>
 
-    <p id="descripcion">soy mark giovany juan ramirez y mu sueño es tener suficiente dinero para poder mantener a mi familia</p>
-    <img src="mark-gio.jpg" alt="300">
-        <h3>mis contactos  </h3>
+   
+    <img src="mark-giovany.jpg" alt="300">
+</div>
+
+<div class="contenedorDescripcion">
+<p id="descripcion">Mi nombre es Mark Giovany Juan Ramirez y quiero ser un buen ingeniero en software</p>
+
+    <h3>mis contactos  </h3>
         <ul>
     <li><strong>telefono:</strong><a href="9983907620">9983907620</a></li>
     <li><strong>gmail:</strong><a href="markgiovany11@gmail.com">markgiovany11@gmail.com</a></li>
-  
+    </ul>
+</div>
+<div class="experienciaPrimaria">
+    <h1 class="titulos">experiencia de primaria</h1></li>
 </ul>
-   <li> <h1 class="titulos">experiencia de primaria</h1></li>
-</ul>
-<p>en la primaria cuando intentaba llegar a la escuela luchaba contra osos y tenia que escalar para poder llegar a mi primaria,
-    pero todo valio la <br>pena porque termine de saber las <strong>tablas de multiplicar y la historia de mexico</strong>
+<p>en la primaria cuando intentaba llegar a la escuela luchaba contra osos y tenia que escalar para poder llegar a mi primaria, pero todo valio la pena porque termine de saber las <strong>tablas de multiplicar y la historia de mexico</strong>
     y gracias a eso pude entrar a secundaria... no esperaba lo que me iba a pasar</p>
-    
+
     <ul>
         <li> compresión lectora media aprender a escribir y leer</li>
         <li> habilidades matemátematicas</li>
@@ -31,12 +37,15 @@
         <li>pequeña habilidad en ciencias naturales</li>
     </ul>
 
+</div>
+
+<div class="experienciaSecundaria">
     <h1 class="titulos">Experiencia escolar secundaria</h1>
 
 <p>despues de llegar a la secundaria me quedaba mas lejos, tenia que caminar 10km usar un bote para cruzar un rio
-pero lo mas dificil del rio <br> era que tenia que <strong>batallar contra tiburones y cocodrilos a mano limpia</strong>, tenia que levantarme
-a la 1 de la mañana para poder llegar a tiempo, <br> tenia que cazar mi comida porque en mi casa no habia para comer, mataba
-mamuts y tigres dientes de sables a mordidas y a puños limpios, <br> mataba a los tigres para que no me diera frio
+pero lo mas dificil del rio  era que tenia que <strong>batallar contra tiburones y cocodrilos a mano limpia</strong>, tenia que levantarme
+a la 1 de la mañana para poder llegar a tiempo,  tenia que cazar mi comida porque en mi casa no habia para comer, mataba
+mamuts y tigres dientes de sables a mordidas y a puños limpios,  mataba a los tigres para que no me diera frio
 <strong>pero al final termine graduandome y sabia geometria, español y un nivel de ingles medio</strong>
 <p>
     <ul>
@@ -47,6 +56,8 @@ mamuts y tigres dientes de sables a mordidas y a puños limpios, <br> mataba a l
         <li>geografía,ética y artes</li>
     </ul>
 
+</div>
+<div class="experienciaPreparatoria">
     <h1 class="titulos">experiencia escolar preparatoria</h1>
     <p>la preparatoria la pase mucho mas dificil, como subio la colegiatura tenia que trabajar
         trabajaba con messi de jugador de futbol, solo me pagaba <br> 100mil pesos bolivares que no me daba ni para el taxi,
@@ -59,15 +70,44 @@ mamuts y tigres dientes de sables a mordidas y a puños limpios, <br> mataba a l
         <li>química y física mas amplea</li>
         <li>y tambien aprendi de tecnologia de la información y comunicación</li>
     </ul>
-
+</div>
+    <div class="ExperienciaLaboral">
     <h1 class="titulos">experiencia laboral</h1>
     <p>pues batallaba contra chun-li y tambien por el dia trabaja en un dojo en japon, pero para poder llegar ahi tenia
         que nadar <span style="color:blueviolet">de méxico a japon</span> pero tenia que nadar lo suficiente rapido para poder
         llegar a tiémpo, despues de eso en la noche luchaba a lado de spiderman y batman y al final logre ganar su confianza
         y poder salbar el mundo
         </p>
-
-
+    </div>
+        <div class="contacto">
+            <form>
+                <label for="nombre">escribe tu nombre</label>
+                <input type="text" name="pozole">
+                <br>
+                <label for="ciudad">¿de que ciudad nos visitas</label>
+                <select name="ciudad" id="">
+                    <option value="">cancun</option>
+                    <option value="">merida</option>
+                    <option value="">playa de carmen</option>
+                    <option value="">campeche</option>
+                    <br>
+                </select>
+                <br>
+                <label for="ciudad">en que esta interesado?</label>
+                <input type="checkbox"> <span>clases</span>
+                <input type="checkbox"> <span>reprobar</span>
+                <input type="checkbox"> <span>pagina web</span>
+                <input type="checkbox"> <span>chismear</span>
+                <br>
+                <label for="programar">sabes programar?</label>
+                <input type="radio" name="programar"> <span>si</span>
+                <input type="radio"name="programar"> <span>no</span>
+                <br>
+                <label for="mensaje">escribe tu mensaje</label>
+                <textarea name="mensaje"></textarea>
+                
+            </form>
+        </div>
         
 </body>
 </html> 
