@@ -4,32 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="huchim_ccs/huchim_morales.css">
 </head>
 <body>
-    <h1>Curriculum Vitae</h1>
+    <div class="header"> 
+   
     <img src="mifotoHuchim.jpg" alt="foto de perfil  de emiliano">
-    <h2>Huchim Morales Emiliano</h2>
-    <p><strong> vicie al <i>monster hunter</i> y no puedo dormir</strong></p>
+    <h1 class="titulos">Curriculum Vitae</h1>
+    </div>
+    <div class="contenedordescripcion">
+    <h2 class="titulos">Huchim Morales Emiliano</h2>
+    <p id="descripcion">vicie al <i>monster hunter</i> y no puedo dormir</p>
     <p><strong> Soy estudiante de la UNID y eh estudiado redes y teleinformatica certificandome en cisco de redes y con conocimiento de c++</strong></p>
-    <h3>Informacion de contacto</h3>
+    </div>
+   
+    <div class="informacion">
+    <h3 class="titulos">Informacion de contacto</h3>
     <ul>
         <li><strong>Telefono: </strong><a href="tel:9988102377">9988102377</a></li>
         <li><strong>Correo electronico: </strong><a href="mailto:00841963@red.unid.mx">00841963@red.unid.mx</a></li>
 
         <li><Strong>Sitio Web:</Strong><a href="https://www.facebook.com/emilijhons.lacarnada.5/">Facebook</a></li>
     </ul>
-    <h4>Experiencia escolar</h4>
+    </div>
+   
+    <div class="titulos2">
+    <h3 class="titulos">Experiencia escolar</h3>
     <ol>
         <li>Primaria: <a href="https://www.google.com.mx/maps/place/Esc.+Primaria+Solidaridad/@21.1485804,-86.8686976,18.25z/data=!4m6!3m5!1s0x8f4c2b7a0dc586ef:0x3c7a0f71cfbc5452!8m2!3d21.1490243!4d-86.8680695!16s%2Fg%2F11ckvl_v7t?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D">Escuela primaria Solidaridad</a></li>
         <li>Secundaria: <a href="https://www.google.com.mx/maps/place/Escuela+Secundaria+Tecnica+Núm.+11+-+Moises+Saenz+Garza,+Supermanzana+1,+77500+Cancún,+Q.R./@21.1701069,-86.8249127,16.83z/data=!4m6!3m5!1s0x8f4c2ea808232e29:0x654c9195e8225604!8m2!3d21.1709343!4d-86.8210927!16s%2Fg%2F11cknfdxzh?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D">Escuela secundaria tecnica 11</a></li>
         <li>Preparatoria: <a href="https://www.google.com.mx/maps/place/Colegio+de+Bachilleres+De+Cancún+1/@21.1691207,-86.8474991,16.96z/data=!4m6!3m5!1s0x8f4c2c73713846f3:0x7e0fd5f28c71423f!8m2!3d21.1676317!4d-86.8436844!16s%2Fg%2F11b5pl0y9q?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D">Bachilleres cancun 1</a></li>
         <li>Universidad: <a href="https://www.google.com.mx/maps/place/UNID+Campus+Cancún/@21.1572664,-86.8566388,15z/data=!4m6!3m5!1s0x8f4c2b89869a6fc9:0x398517ec43739ce7!8m2!3d21.157266!4d-86.8478835!16s%2Fg%2F1td59p2x?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D"> UNID</a> </li>
     </ol>
-    <h5>Experiencia Laboral:</h5>
+</div>
+    <div class="titulos3">
+    <h3 class="titulos">Experiencia Laboral:</h3>
     <ul>
         <li>Mantenimiento en equipo y redes en microsoft</li>
         <li>Creador de redes y infrestructura para compañias locales</li>
         <li>Programador en CDprojectred en proyecto secreto <strong>ORION</strong></li>
     </ul>
+</div>
+<div class="contacto">
+    <h2 class="titulo5">Deseas contactarme? !mandame un mensaje!</h2>
+    <form>
+        <label for="nombre">Escribe tu nombre: </label>
+        <input type="text" name="nombre">
+        <label for="ciudad">De que ciudad nos visitas?: </label>
+        <select name="ciudad">
+            <option value="">Cancun</option>
+            <option value="">Merida</option>
+            <option value="">Playa del carmen</option>
+            <option value="">Campeche</option>
+        </select>
+        <label for="interes">En que estas interesado?:</label>
+        <input type="checkbox"><span>Clases</span>
+        <input type="checkbox"><span>Reprobar</span>
+        <input type="checkbox"><span>Paginas wed</span>
+        <input type="checkbox"><span>Chismear</span>
+        <label for="programar">sabes programar?</label>
+        <input type="radio" name="programar"><span>Si</span>
+        <input type="radio" name="programar"><span>No</span>
+        </div>
+        <div class="caja">
+        <h2 class="titulo6">
+        <label for="mensaje">Escribe tu mensaje</label>
+        <textarea name="mensaje"></textarea>
+    </h2>
+</div>
+    </form>
+
 </body>
 </html>
