@@ -52,11 +52,13 @@
     <p>Actual mente trabajo en oxxo llevo 3 meses y me gusta mi trabajo</p>
     </ul>
 </div>
-<div>
+<div class="contactoo">
     <h2 class="titulos">¿Deseas contratarme? ¡Manda mensaje!</h2>
     <form>
+        <label for="nombre"></label>
         <label for="nombre"> ¿Cual es tu nombre?</label>
         <input type="text" name="nombre">
+        <br>
         <label for="ciudad">¿De que ciudad nos visitas?</label>
         <select name="ciudad">
             <option value="">Campeche</option>
@@ -65,17 +67,22 @@
             <option value="">CDMX</option>
             <option value="">Fuera de Mexico</option>
         </select>
+        <br>
         <label for="ciudad">¿En que estas interesado?</label>
         <input type="checkbox"><span>clases</span>
         <input type="checkbox"><span>reporbar</span>
         <input type="checkbox"><span>pagina web</span>
         <input type="checkbox"><span>chismear</span>
+        <br>
         <label for="programar">¿saber programar?</label>
         <input type="radio" name="programar"><span>si</span>
         <input type="radio" name="programar"><span>no</span>
+        <br>
         <label for="mensaje">Escribe tu mensaje</label>
+        <br>
+        <textarea name="mensaje" rows="5" cols="25" placeholder="escribe tu mensaje"></textarea>
     </form>
-</div>       
+</div>
 </body>
 
 </html>
