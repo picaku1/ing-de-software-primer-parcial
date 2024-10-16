@@ -1,3 +1,84 @@
-body {
-    background: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(119, 216, 74);
+}
+
+.descripcion{
+    color: black}
+
+.h1,h2,h3{ 
+    color: rgb(37, 48, 196);
+}
+
+.header{ 
+    background-color: red;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header img{
+    height: 100px;
+}
+
+.header h1{
+    background-color: gray;
+    padding: 10px 10px 10px 10px ;
+}
+
+.contenedordescripcion{
+    background: rgb(209, 209, 52);
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.Infomacion{
+    background: rgb(52, 191, 209);
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}   
+.contacto{
+    background: rgb(175, 39, 43);
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.contacto form {
+    margin: 20px
+    }
+
+.contacto label,.contacto input,.contacto select {
+        display: block;
+        margin: 10px 0;
+        padding: 5px;
+    }
+
+.Experiencia{
+    background: rgb(180, 192, 24);
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.Laboral{
+    background: rgb(86, 185, 36);
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px; 
 }
