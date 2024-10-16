@@ -1,0 +1,64 @@
+body{
+    background: purple;
+}
+#descripcion {
+    color:rgb(8, 53, 253)
+
+}
+.titulos {
+    color:rgb(7, 201, 159)
+}
+.perfil{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+}
+.encabezado{
+    background: white;
+    padding: 20px 10px 20px 1050px;
+    margin: 20px 0px 20px 0px;
+    }
+.header{
+    background: white;
+    padding: 0px 10px 0px 0px;
+    display: flex;
+}
+img{
+    margin: 3%;
+}
+.nomcompleto{
+    background: white;
+    padding: 1px 10px 5px 40px ;
+}
+.contact{
+    background: white;
+    padding: 10px;
+    margin: 20px;
+    width: 10cm;
+
+}
+.escolar{
+    background: white;
+    padding: 10px;
+    margin: 20px;
+    width: 11cm;
+}
+.laboral{
+    background: white;
+    padding: 10px;
+    margin: 20px;
+    width: 15cm;
+}
+.columnas{
+    margin: 40px;
+    display: flex;
+    justify-content:space-around;
+}
+.buclecontact{
+    display: flex;
+    justify-content: center;}
+    
+.comunicacion{
+    background: white;
+    padding: 20px;
+    margin: 100px 0px 0px 0px;}

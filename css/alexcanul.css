@@ -1,3 +1,51 @@
-body{
-    background: red;
+*{
+    marging: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+body {
+    background: rgb(165, 54, 54);
+}
+
+
+ .header    {
+    background-color: rgb(216, 125, 72);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 100px;
+}
+
+.contenedorDescripcion {
+    background: rgba(165, 54, 54, 0.58);
+    padding: 50px;
+    margin: 35px auto;
+    width: 70%;
+    border-radius: 7px;
+}
+
+.contenedorContacto {
+    background: rgb(216, 125, 72);
+    padding: 50px;
+    margin: 35px auto;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.contenedorInformacion {
+    justify-content: center;
+    display: flex;
+}
+
+.contenedormargen {
+    background: rgb(216, 125, 72);
+    padding: 50px;
+    margin: 35px auto;
+    width: 80%;
+    border-radius: 7px;
+}
+
