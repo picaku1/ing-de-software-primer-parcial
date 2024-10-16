@@ -1,3 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: grey
+}
+ 
+.header {
+    background: white;
+    padding:20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 50px;
+}
+
+.contenedorDescripcion {
+    background: lightgrey;
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.contenedorContacto {
+    background-color: lightgrey;
+    padding: 20px;
+    margin: 25px;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.contenedorEtiqueta {
+    justify-content: center;
+    display: flex;
+}
+
+.contenedorInformacion {
+    justify-content: center;
+    display: flex;
+    background: lightpink;
+    padding: 20px;
+    margin: 35px auto;
+    width: 80%;
+    border-radius: 7px;
 }
