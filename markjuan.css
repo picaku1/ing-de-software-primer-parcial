@@ -1,1 +1,64 @@
-@import url(estilos.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: rgb(0, 0, 0);
+    padding: 2%  ;
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    height: 80px;
+}
+.header h1{
+    background: rgb(255, 255, 255);
+    
+}
+
+.contenedorDescripcion{
+    background: rgb(31, 232, 182);
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 50px;
+}
+
+.experienciaPrimaria{
+    background-color: aqua;
+   margin: 2% ;
+   padding: 2%;
+  width: 97%;
+    border-radius: 50px;
+}
+
+.experienciaSecundaria{
+    background-color: rgb(72, 244, 72);
+    margin: 2% ;
+    padding: 2%;
+   width: 97%;
+     border-radius: 50px;
+}
+
+.experienciaPreparatoria{
+    background-color: rgb(238, 255, 0);
+    margin: 2% ;
+    padding: 2%;
+   width: 97%;
+     border-radius: 50px;
+}
+ 
+.ExperienciaLaboral{
+    background-color: rgb(255, 0, 255);
+    margin: 2% ;
+    padding: 2%;
+   width: 97%;
+     border-radius: 50px;
+}
+
+
+body{
+    background-color: beige;
+}
