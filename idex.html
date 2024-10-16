@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-        <h1>curriculum vitae</h1>
-        <img src="imagen/img.pg.jpeg" width="200px" height="200px" alt="">
-        <h2>Raul Antonio Espinoza Palomo</h2>
-        <p><strong>preparatoria por el cecyte 2 cancun quintana roo<p><strong></strong> me gusta el futbol, la cocina, hacer ejercicio, jugar video juegos,y ver anime.</p>
-        <h3>informacion de contacto</h3>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+  <div class="lmheader">
+        <h1 class="titulos">curriculum vitae</h1>
+        <img src="imagen/img.pg.jpeg" alt="foto de perfil Raul">
+</div>
+<div class="lmcontenedorDescripciones">
+        <h2 class="titulos">Raul Antonio Espinoza Palomo</h2>
+        <p id="descripciones"><strong>preparatoria por el cecyte 2 cancun quintana roo<p><strong></strong> me gusta el futbol, la cocina, hacer ejercicio, jugar video juegos,y ver anime.</p></div>
+        <div class="informaciondecontacto">
+        <h3 class="titulos">informacion de contacto</h3>
         <ul>
+          
                 <li><strong>telefono</strong><a href="tel:9983459878">9983459878</a></li>
                 <li><strong>correo eletronico</strong><a href="mailto:00841223@red.unid.mx">00841223@red.unid.mx</a></li>
                 <li><strong>redes sociales</strong><a href=https://www.facebook.com/profile.php?id=100088853362335&mibextid=ZbWKwL target="_blank" >https://www.facebook.com/profile.php?id=100088853362335&mibextid=ZbWKwL</a></li>
                 </ul>
-              <h4>Experencia Escolar</h4>
-             </ul>
+                </div>
+                <div class="experenciaescolar">
+              <h3 class="titulos">Experencia Escolar</h4>
+            <div>
+              </ol>
               <li>primaria</li>
               <p>la primaria la termine con un promedio de 8.9</p>
             <li>secundaria</li>
@@ -24,14 +34,40 @@
              <li>preparatoria</li>
              <p>termine la preparatoria año 2022-2024 con promediacion de 9.7</p>
              <p>en proceso de una ingenieria en csistemas computacionales y sowtware</p>
+             </div>
              <h5>experencia laboral</h5>
              </ul>
              <li>reciclaje</li>
              <p>un año de experencia en el reciclaje de hotelerias</p>
              <li>rolandis cumbres, cocinero</li>
              <p>1 año imedio de experencia en tres areas de cocina, fria caliente y pizzeria</p>
-              
+            </div>
+            <div class="contratarme">
+<div class="divcontactoslm">
+  <form>
+    <h2>¿buscas contatarme? ¡mandame mensaje!</h2>
+    <label for="nombre">escribe tu nombre:</label>
+    <input type="text" name="nombre">
+    <label for="ciudad"> De donde vienes</label>
+    <select name="ciudad" id="">
+      <option value="ciudad">merida</option>
+      <option value="ciudad">chihuahua</option>
+      <option value="ciudad">cancun</option>
+    </select>
+      <label for="ciudad">¿En que estas interesado?</label>
+      <input type="checkbox"> <span>clases</span>
+      <input type="checkbox"> <span>reprobar</span>
+      <input type="checkbox"> <span>paginas wed</span>
+      <input type="checkbox"> <span>chisme</span>
+      <label for="programar">¿Sabes programar?</label>
+      <input type="radio" name="programar"> <span>si</span>
+      <input type="radio" name="programar"> <span>no</span>
+      <label for="mensaje">escribeme un mensaje</label>
+      <textarea name="mensaje"></textarea>
+      </div>
 
+  </form>
+</div>
 
 </head>
 <body>

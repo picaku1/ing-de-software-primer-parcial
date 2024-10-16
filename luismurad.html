@@ -5,35 +5,78 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
-<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="estilosz.css">
 </head>
 
 <body>
-
+<div class="header">
 <h1 class="titulos">Curriculum Vitae</h1>
 <img src="fotodeluismurad.jpg" width="250" alt="Foto de perfil de Luis Murad">
+</div>
+
+<div class="contenedorDescripcion">
 <h2>Luis Murad Garcia Albornoz</h2>
 <p id="descripcion">Estudiante en la <i> UNID </i> de la lienciatura en <strong> ingenieria en software y sistemas computacionales</strong>, en las tardes cuando vengo a la universidad en el turno <strong> vespertino </strong></p>
+</div>
 
+<div class="infoContacto">
 <h3 class="titulos">Información de contacto</h3>
 <ul>
-
 <li><strong>Telefono:</strong> <a href="tel:9982464853">9982464853</a></li>
 <li><strong>Correo electronico:</strong> <a href="mailto:00677254@red.unid.mx">00677254@red.unid.mx</a></li>
 <li><strong>Sitio web:</strong> <a href="www.helloworld123.com"target="_blank">www.helloworld.com</a></li>
-
 </ul>
+</div>
 
 </body>
-
+<div class="experienciaEscolar">
 <h3 class="titulos">Experiencia Escolar</h3>
 
 <li><strong>Primaria:</strong> cursé los 6 grados requeridos para aprobar con los conocimientod basicos en español, matematicas, ciencias, historia, también reforcé mi lectura y escritura</li>
 <li><strong>Secundaria:</strong> cursé los 3 grados requeridos donde reforcé las cosas aprendidas previamente en primaria, permaneciendo en la misma escuela con agregados de materias como física, química y principios de algebra</li>
 <li><strong>Preparatoria:</strong> cursé los 6 semestres requeridos esta vez en la preparatoria UNID donde obtuve mas conocimientos en relación con la medicina y humanidades, también mejoré mi escritura y estructura a la hora de redactar</li>
-
+</div>
+<div class="experienciaLaboral">
 <h3 class="titulos">Experiencia Laboral</h3>
 
 <li>Ayudante de Taller mecanico por medio año</li>
 <li>Editor de medio tiempo durante año y medio en trabajo en equipo</li>
 <li>Atención al cliente en un call center por 1 año</li>
+</div>
+<div class="contacto">
+        <label for="nombre">Escribe tu nombre:</label>
+        <input type="text" name="pozole">
+        <br>
+        <br>
+        <label for="ciudad">¿De que ciudad nos visitas?</label>
+        <br>
+        <select name="ciudad" id="">
+            <option value="">Cancún</option>
+            <option value="">Merida</option>
+            <option value="">Playa de carmen</option>
+            <option value="">Campeche</option>
+        </select>
+        <br>
+        <br>
+        <label for="ciudad">¿En que esta interesado?</label>
+        <br>
+        <input type="checkbox"> <span>clases</span>
+        <input type="checkbox"> <span>reprobar</span>
+        <input type="checkbox"> <span>pagina web</span>
+        <input type="checkbox"> <span>chismear</span>
+        <br>
+        <br>
+        <label for="programar">¿Sabes programar?</label>
+        <br>
+        <input type="radio" name="programar"> <span>si</span>
+        <input type="radio"name="programar"> <span>no</span>
+        <br>
+        <br>
+        <label for="mensaje">Escribe tu mensaje:</label>
+        <br>
+        <textarea name="mensaje">
+        </textarea>
+    </form>
+</div>
+</body>
+</html>
