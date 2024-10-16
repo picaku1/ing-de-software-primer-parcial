@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+}
+
+#descripcion{
+    color: black}
+
+.titulos{ 
+    color: darkviolet;
+}
+
+.header{ 
+    background-color: beige;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header img{
+    height: 100px;
+}
+
+.header h1{
+    background-color: gray;
+    padding: 10px 10px 10px 10px ;
+}
+
+.contenedordescripcion{
+    background: beige;
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.informacion{
+ background-color: beige;
+ padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.titulos2{
+    background: beige;
+    padding: 20px;
+        margin: 35px auto;
+        width: 50%;
+        border-radius: 7px;
+}
+
+.titulos3{
+    background: beige;
+    padding: 20px;
+        margin: 35px auto;
+        width: 50%;
+        border-radius: 7px;
+}
+
+.contacto{
+    background: beige;
+padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.caja{
+    background: beige;
+padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.titulo6{ 
+    color: darkviolet;
+}
+.titulo5{ 
+    color: darkviolet;
+}

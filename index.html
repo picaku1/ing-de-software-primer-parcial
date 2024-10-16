@@ -1,34 +1,70 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Css/Css.css"
+    <link rel="stylesheet" href="Css/Css.css">
+    <title>Curriculum Vitae</title>
 </head>
 <body>
-    <h1 class="titulos">Currriculo Vitae</h1> 
-    <img src="Fotos/mi foto.jpg" alt="hola" width="100px">
-    <h2 class="titulos">Diego Sanchez Linares</h2> 
-        <p id="Descrición"><strong>Soy un ingenerio en sistemas compuacionales por el <i>intituto unid</i> a mi me gusta jugar videojuegos y pasar un rato con mis amigos.</strong> </p>
+<div class="header">
+    <img src="Fotos/mi foto.jpg" alt="Profile photo" width="100px">
+    <h1>Curriculum Vitae</h1>
+</div>
 
+<div class="contenedordescripcion">
+    <h2 class="titulos">Diego Sanchez Linares</h2><br>
+    <p id="descripcion"><strong>Soy un ingeniero en sistemas computacionales por el <i>Instituto UNID</i>. Me gusta jugar videojuegos y pasar un rato con mis amigos.</strong></p>
+</div> 
+
+<div class="Infomacion">
+    <h3 >Información de contacto:</h3><br>
     <ul>
-        <li><strong>Telefono: <a href="Tel:99999999999">99999999999</a></li></strong>
-            <li><strong>Correo: <a href="mailto:jkdhewhdfhul@gmail.com">jkdhewhdfhul@gmail.com</a></li></strong>
-            <li>Sitio web <strong><a href="http://www.efhehfefhuhu.com.mx" target="_blank">8DevMX</a></strong></li>
-
-        <h3 class="titulos">Experiencia laboral</h3>
-        <li><strong>Programador <i>videojuegos</i></strong></li>
-        <li><strong>cuando empecé a trabajar como analista de proyectos en una empresa de tecnología, me asignaron a un equipo que estaba desarrollando una aplicación móvil para una importante cadena de restaurantes. 
-            El proyecto ya llevaba varios meses en marcha y había experimentado retrasos debido a problemas de comunicación entre el equipo de desarrollo y el cliente.Mi primera tarea fue revisar el estado del proyecto y encontrar una forma de agilizar el proceso. Al principio, me sentí abrumado.
-             El código del proyecto era extenso, y la relación con el cliente estaba tensa debido a la falta de entregas en el plazo acordado.</strong></li>
+        <li><strong>Teléfono:</strong> <a href="tel:99999999999">99999999999</a></li>
+        <li><strong>Correo:</strong> <a href="mailto:jkdhewhdfhul@gmail.com">jkdhewhdfhul@gmail.com</a></li>
+        <li><strong>Sitio web:</strong> <a href="http://www.efhehfefhuhu.com.mx" target="_blank">8DevMX</a></li><br>
+        </div>
     </ul>
-
-        <h3 class="titulos">Experiencia escolar</h3>
-        <li><STrong>Primaria:</STrong>un niño curioso y alegre en la primaria. Le encantaba aprender, y su materia favorita era ciencias, porque podía hacer experimentos divertidos. Sin embargo, no todo era fácil; tenía problemas con las matemáticas.</li>
-        <li><STrong>Secundaria:</STrong>Al llegar a la secundaria,enfrentó un nuevo reto adaptarse a los cambios sociales. Sus amigos de la primaria iban a otras escuelas y hacer nuevos amigos fue complicado.un pequeño grupo de estudio, y pronto se dieron cuenta de que estudiar en equipo hacía todo más fácil y divertido. Además, descubrió su amor por la tecnología en una clase de informática, lo que influiría en su futuro.</li>
-        <li><STrong>Preparatoria:</STrong>ya tenía más claro lo que quería hacer: estudiar ingeniería. Las materias se volvieron más exigentes, pero él estaba motivado. Se unió al club de robótica de la escuela, donde aprendió a programar y construir robots. Fue un tiempo de mucho esfuerzo, pero también de satisfacción.</li>
-   
+    <div class="Laboral">
+    <h3 >Experiencia Laboral</h3>
+    <ul>
+        <li><strong>Trabajé como analista de proyectos en una empresa de tecnología. Fui asignado a un equipo que estaba desarrollando una aplicación móvil para una importante cadena de restaurantes...</strong></li><br>
+    </ul>
+</div>
+<div class="Experiencia">
+    <h3 >Experiencia Escolar</h3>
+    <ol>
+        <li><strong>Primaria:</strong> Un niño curioso y alegre, amante de las ciencias y con dificultades en matemáticas.</li>
+        <li><strong>Secundaria:</strong> Se enfrentó a retos sociales y descubrió su amor por la tecnología.</li>
+        <li><strong>Preparatoria:</strong> Se unió al club de robótica y decidió estudiar ingeniería.</li>
     </ol>
-    </ul>
+</div>
+</div>
+<br>
+<div class="contacto">
+    <h2>¿Deseas contratarme? ¡Envíame un mensaje!</h2>
+    <form>
+        <label for="nombre">Escribe tu nombre</label>
+        <input type="text" name="nombre"> 
+        <label for="ciudad">¿De qué ciudad nos visitas?:</label>
+        <select name="ciudad">
+            <option value="cancun">Cancún</option>
+            <option value="merida">Mérida</option>
+            <option value="playa">Playa del Carmen</option>
+            <option value="campeche">Campeche</option>
+        </select>
+        <label>¿En qué estás interesado?</label>
+        <input type="checkbox" name="interes"> <span>Clases</span>
+        <input type="checkbox" name="interes"> <span>Reprobar</span>
+        <input type="checkbox" name="interes"> <span>Páginas web</span>
+        <input type="checkbox" name="interes"> <span>Chismear</span>
+        
+        <label for="programar">¿Sabes programar?</label>
+        <input type="radio" name="programar"> <span>Sí</span>
+        <input type="radio" name="programar"> <span>No</span>
+        <label for="mensaje">Escribe tu mensaje:</label>
+        <textarea name="mensaje"></textarea>
+    </form>
+</div>
 </body>
 </html>
