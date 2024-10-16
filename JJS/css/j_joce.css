@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 body {
     background: gray;
 }
@@ -6,6 +12,36 @@ body {
     color:aquamarine
 }
 
-.titulos {
+.titul {
     color:darkviolet
+}
+
+.header {
+    background: darkgray;
+    padding: 20px 10px;
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.header img{
+    height: 300px;
+}
+
+.contenedorDescription {
+    background: silver;
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
+}
+
+.contact{
+    background: silver;
+    padding: 20px;
+    margin: 35px auto;
+    width: 50%;
+    border-radius: 7px;
 }
