@@ -4,33 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="j_joce.css">
 </head>
 
 <body>
+    <div class="header">
     <h1 class="titulos">Curriculum Vitae</h1>
     <img src="eldiaenelquediospapio.jpg" alt="">
-    <h2 class="titulos">J. Joce</h2>
+    </div>
+
+    <div class="contenedorDescription">
+    <h2 class="titul">J. Joce</h2>
     <p id="descripcion">Soy <strong>Estudiante en Sistemas Computacionales</strong></p>
-    <h3  class="titulos">Informacio de contacto</h3>
-    <ul>
-        <li><stong>Telefono:</strong> <a href="9985278746">9985278746</a></li>
-        <li><stong>Telefono:</strong> <a href="9985278746">9985278746</a></li>
-        <li><stong>Correo electronico:</stong> <a href="00847923@red.unid.mx" target="_blank">00847923@red.unid.mx</a></li>
-    </ul>
-    <h4 class="titulos">Experiencia escolar</h4>
+    </div>
+
+    <div class="contenedorDescription">
+        <h3  class="titul">Informacio de contacto</h3>
+        <ol>
+            <li><stong>Telefono:</strong> <a href="9985278746">9985278746</a></li>
+            <li><stong>Telefono:</strong> <a href="9985278746">9985278746</a></li>
+            <li><stong>Correo electronico:</stong> <a href="00847923@red.unid.mx" target="_blank">00847923@red.unid.mx</a></li>
+        </ol>
+    </div>
+
+    <div class="contenedorDescription">
+    <h4 class="titul">Experiencia escolar</h4>
     <ol>
         <li><stong>Primaria</stong></li>
         <li><stong>Secundaria</stong></li>
         <li><stong>Preparatoria</stong></li>
         <li><stong>Univeridad</stong></li>
     </ol>
-    <h5 class="titulos">Experiencia laboral</h5>
+    </div>
+
+    <div class="contenedorDescription">
+    <h5 class="titul">Experiencia laboral</h5>
     <ul>
         <li>Cocinero de medio tiempo</li>
         <li>Fontanero</li>
         <li>Pintor</li>
     </ul>
-</body>
+    </div>
 
+
+</body>
+    <body>
+        <div class="contact">
+            <h2>¿Deseas contactarme? ¡Mandame un mensaje!</h2>
+                <form>
+                    <label for="nombre">Escribe tu nombre</label>
+                    <input type="text" name="nombre"><input>
+                    <label for="ciudad">¿De donde nos visitas?:</label>
+                    <select name="ciudad">
+                    <option value="cancun">Cancún</option>
+                    <option value="merida">Merida</option>
+                    <option value="campeche">Campeche</option>
+                    <option value="playa del carmen">Playa del carmen</option>
+                    </select>
+
+                    <label>¿En que estas interesado?</label>
+                    <input type="checkbox" name="interes"><span>Clases</span>
+                    <input type="checkbox" name="interes"><span>Reprobar</span>
+                    <input type="checkbox" name="interes"><span>Chismes</span>
+
+                    <label for="programar">¿Sabes programar?</label>
+                    <input type="radio" name="programar"><span>No</span>
+                    <input type="radio" name="programar"><span>Si</span>
+                    <label for="mensaje">Escribe tu mensaje:</label>
+                    <textarea name="mensaje"></textarea>
+                </form>
+        </div>
+    </body>
 </html>
